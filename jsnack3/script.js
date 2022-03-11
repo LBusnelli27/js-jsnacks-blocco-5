@@ -1,7 +1,9 @@
-let arrayA = ['pippo', 'PLUTO', 'Paperino'];
+let arrayA = ['pippo', 'PLUTO', 'Paperino', 'miNNie'];
 
-for (let i = 0; i < arrayA.length; i++) {
-  arrayA = arrayA[i].charAt(0).toUpperCase() + arrayA[i].substring(1).toLowerCase();
-}
+
+const newString = arrayA.map((element) => {
+  return element.charAt(0).toUpperCase() + element.substring(1).toLowerCase();
+})
 
 console.log(arrayA);
+console.log(newString);
