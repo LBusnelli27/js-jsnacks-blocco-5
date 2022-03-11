@@ -22,4 +22,5 @@ const arrayMamm = animalArray.filter((element) => {
   }
 });
 
-console.log(arrayMamm);
+console.table(animalArray);
+console.table(arrayMamm);
