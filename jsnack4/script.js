@@ -1,7 +1,19 @@
 const animalArray = [
-    { nome: 'leone', famiglia: 'felidi', classe: 'mammiferi' },
-    { nome: 'cane', famiglia: 'canidi', classe: 'mammiferi' },
-    { nome: 'gallina', famiglia: 'fasianidi', classe: 'uccelli' },
+  { 
+    nome: 'leone', 
+    famiglia: 'felidi', 
+    classe: 'mammiferi' 
+  },
+  { 
+    nome: 'cane', 
+    famiglia: 'canidi', 
+    classe: 'mammiferi' 
+  },
+  { 
+    nome: 'gallina', 
+    famiglia: 'fasianidi', 
+    classe: 'uccelli' 
+  }
 ]
 
 const arrayMamm = animalArray.filter((element) => {
