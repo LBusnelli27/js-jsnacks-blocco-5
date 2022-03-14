@@ -27,7 +27,7 @@ const arrayCanDrive = [
 
 
 arrayUser.filter((element) => {
-  if(element.age > 18) {
+  if(element.age >= 18) {
     arrayCanDrive.push({
       phrase : element.name + ' ' + element.lastName + ' ' + 'can drive'
     })
